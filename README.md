@@ -11,7 +11,7 @@
 The script requires two files 'demultiplex.fastq.gz' and 'samples.csv' as input.
 
 ### Output
-The output generates one file for each sample in a new directory called 'demultiplexed'.
+The output generates one file for each sample in a new directory called 'demultiplexed'. An additional file called 'unknown' is also created for samples whose IDs could not be determined.
 
 ### Dependencies
 Python 3 and Biopython 
